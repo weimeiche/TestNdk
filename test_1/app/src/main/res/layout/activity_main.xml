@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sample_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"/>
+
+        <TextView
+            android:id="@+id/tv_app_package_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"/>
+
+        <TextView
+            android:id="@+id/txt_jni_hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"/>
+
+        <TextView
+            android:id="@+id/txt_jni_sum_two_int"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-----------------神奇的分割线--------------------"/>
+
+        <EditText
+            android:id="@+id/edit_throw_exception"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txt_throw_exception"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_throw_exception"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="thorwException"
+            android:text="抛出异常"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-----------------神奇的分割线--------------------"/>
+
+        <ImageView
+            android:id="@+id/img_java"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/abc"/>
+
+        <Button
+            android:id="@+id/btn_java_gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Java灰化图片"/>
+
+        <ImageView
+            android:id="@+id/img_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/abc"/>
+
+        <Button
+            android:id="@+id/btn_c_gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C++灰化图片"/>
+    </LinearLayout>
+</ScrollView>
